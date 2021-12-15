@@ -65,7 +65,7 @@ export default class Navigation extends Component {
                 <li className="nav-item">
                     <AnchorLink
                         onClick={this.toggleNavbar}
-                        offset={() => -30}
+                        offset={() => 30}
                         className="nav-link"
                         href="#about"
                     >
@@ -75,7 +75,7 @@ export default class Navigation extends Component {
                 <li className="nav-item">
                     <AnchorLink
                         onClick={this.toggleNavbar}
-                        offset={() => -30}
+                        offset={() => 30}
                         className="nav-link"
                         href="#features"
                     >
@@ -85,7 +85,7 @@ export default class Navigation extends Component {
                 <li className="nav-item">
                     <AnchorLink
                         onClick={this.toggleNavbar}
-                        offset={() => -30}
+                        offset={() => 30}
                         className="nav-link"
                         href="#screenshots"
                     >
@@ -95,7 +95,7 @@ export default class Navigation extends Component {
                 <li className="nav-item">
                     <AnchorLink
                         onClick={this.toggleNavbar}
-                        offset={() => -30}
+                        offset={() => 30}
                         className="nav-link"
                         href="#contact"
                     >

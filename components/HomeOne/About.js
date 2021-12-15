@@ -84,8 +84,8 @@ class About extends React.Component {
                             >
                                 <div className="text-center">
                                     <img
-                                        src="/images/app-about.jpg"
-                                        alt="App About Image"
+                                        src="/images/mision.png"
+                                        alt="Nuestra misión"
                                     />
                                 </div>
                             </ScrollAnimation>
@@ -100,8 +100,8 @@ class About extends React.Component {
                             >
                                 <div className="text-center">
                                     <img
-                                        src="/images/app-about.jpg"
-                                        alt="App About Image"
+                                        src="/images/vision.png"
+                                        alt="Nuestra visión"
                                     />
                                 </div>
                             </ScrollAnimation>

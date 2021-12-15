@@ -9,19 +9,16 @@ export default class Footer extends React.Component {
                         <div className="row">
                             <div className="col-md-6 col-lg-6">
                                 <p className="copyright">
-                                    Copyright @2021 Jibo. all rights by{' '}
-                                    <a
-                                        href="http://envytheme.com/"
-                                        target="_blank"
-                                    >
-                                        EnvyTheme
+                                    Copyright @2021 Dark. all rights by{' '}
+                                    <a href="#" target="_blank">
+                                        DarkDeveloper
                                     </a>
                                 </p>
                             </div>
 
                             <div className="col-md-6 col-lg-6">
                                 <ul className="social-links">
-                                    <li>Follow us :</li>
+                                    <li>Siguenos en :</li>
                                     <li>
                                         <a
                                             href="https://facebook.com/"

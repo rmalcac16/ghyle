@@ -1,20 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
 import ScrollAnimation from 'react-animate-on-scroll';
-import dynamic from 'next/dynamic';
-const ModalVideo = dynamic(() => import('react-modal-video'), {
-    ssr: false,
-});
 
 class HowItWorks extends React.Component {
-    state = {
-        isOpen: false,
-    };
-
-    openModal = () => {
-        this.setState({ isOpen: true });
-    };
-
     render() {
         return (
             <>
@@ -166,13 +153,6 @@ class HowItWorks extends React.Component {
                         </div>
                     </div>
                 </section>
-
-                <ModalVideo
-                    channel="youtube"
-                    isOpen={this.state.isOpen}
-                    videoId="szuchBiLrEM"
-                    onClose={() => this.setState({ isOpen: false })}
-                />
             </>
         );
     }
