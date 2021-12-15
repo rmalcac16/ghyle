@@ -7,7 +7,7 @@
         from(#00796b),
         to(#009688)
     );
-    background: linear-gradient(to right, #27cb11, #62fc25);
+    background: linear-gradient(to right, #00796b, #009688);
 }
 
 .default-button {
