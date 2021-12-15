@@ -1,0 +1,639 @@
+[dir="rtl"] {
+    .owl-carousel {
+        direction: ltr;
+        .owl-item {
+            direction: rtl;
+        }
+    }
+    .ms-auto {
+        margin-right: auto !important;
+        margin-left: unset !important;
+    }
+    .ml-auto {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+    .modal {
+        padding: 0 !important;
+    }
+    .slider-text {
+        padding-left: 50px;
+        padding-right: 0;
+        text-align: right;
+    }
+    .top-menu .navbar-brand {
+        margin-right: 0;
+    }
+    .mr-10 {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    [type=email], [type=number], [type=tel], [type=url] {
+        direction: rtl;
+    }
+    .app-about-text {
+        text-align: right;
+    }
+    .app-about-text h3::after {
+        right: 0;
+        left: auto;
+    }
+    .app-about-text ul li {
+        margin: 0 0px 20px 15px;
+    }
+    .single-hiw-feature {
+        padding: 0 80px 0 0;
+        text-align: right;
+    }
+    .single-hiw-feature i {
+        right: 0;
+        left: auto;
+    }
+    .offset-lg-1 {
+        margin-right: 8.333333%;
+        margin-left: 0;
+    }
+    .accordion__button {
+        text-align: right;
+        &:before {
+            margin-right: 0;
+            margin-left: 12px;
+        }
+    }
+    .faq-content .faq-title {
+        padding: 12px 40px 12px 30px;
+        text-align: right;
+    }
+    .faq-content .faq-title span {
+        right: 18px;
+        left: auto;
+    }
+    .faq-content .faq-title::before {
+        right: 0;
+        left: auto;
+    }
+    .faq-content .faq-title i {
+        left: 15px;
+        right: auto;
+    }
+    .horizontal-post .blog-info {
+        padding: 48px 15px 15px 30px;
+        text-align: right;
+    }
+    .horizontal-post .blog-title a {
+        text-align: right;
+    }
+    .horizontal-post .post-admin {
+        text-align: right;
+    }
+    .horizontal-post .blog-img img {
+        border-radius: 0 1000px 1000px 0;
+    }
+    .horizontal-post {
+        border-radius: 0 1000px 1000px 0;
+    }
+    .subscribe-form .subscribe-btn {
+        left: -1px;
+        right: auto;
+    }
+    .footer-bottom .copyright {
+        text-align: right;
+    }
+    .footer-bottom .social-links {
+        text-align: left;
+    }
+    .contact-form {
+        text-align: right;
+    }
+    .app-download-content .download-btn i {
+        right: 20px;
+        left: auto;
+    }
+    .app-download-content .download-btn {
+        padding: 15px 85px 8px 30px;
+    }
+    .app-download-content .download-btn span {
+        text-align: right;
+    }
+    .faq-textarea {
+        text-align: right;
+    }
+    .single-price-package .price-list {
+        padding: 0 65px 0 30px;
+        text-align: right;
+    }
+    .single-price-package {
+        .price-list {
+            padding: 0 30px;
+            li {
+                position: relative;
+                &:before {
+                   left: auto;
+                   right: 0;
+                }
+            }
+        }
+    }
+    .offset-xl-5 {
+        margin-right: 41.666667%;
+        margin-left: 0;
+    }
+    .single-user {
+        padding: 0 45px 0 0 !important;
+        text-align: right;
+    }
+    .single-user i {
+        right: 0;
+        left: auto;
+    }
+    .accordion-header {
+        padding: 15px 15px 15px 20px;
+        text-align: right;
+    }
+    .accordion__item > .accordion-header:after {
+        left: 20px;
+        right: auto;
+    }
+    .accordion-body__contents {
+        text-align: right;
+    }
+    .feature-style-two {
+        text-align: right;
+        padding: 30px 110px 20px 20px;
+    }
+    .feature-style-two .feature-icon {
+        right: 25px;
+        left: auto;
+    }
+    .single-blog-post-two .blog-info {
+        text-align: right;
+    }
+    .single-blog-post-two .post_date {
+        right: 0;
+        left: auto;
+    }
+    .single-blog-img .single-blog-date {
+        right: 15px;
+        left: auto;
+    }
+    .single-blog-details {
+        text-align: right;
+    }
+    .post-tag-media .tag li span {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .post-social-media {
+        float: left;
+    }
+    .comment-title {
+        text-align: right;
+    }
+    .comment-title::before {
+        right: 0;
+        left: auto;
+    }
+    .all-comments-content .comment-details {
+        text-align: right;
+    }
+    .all-comments-content .comment img {
+        float: right;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .all-comments-content .reply-comment {
+        margin-right: 70px;
+        margin-left: 0;
+    }
+    .single-recent-post {
+        text-align: right;
+    }
+    .search-box .search-btn {
+        left: 0;
+        right: auto;
+    }
+    .single-recent-post img {
+        float: right;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .blog-sidebar-title {
+        text-align: right;
+    }
+    .blog-sidebar-title::before {
+        right: 0;
+        left: auto;
+    }
+    .popular-tags {
+        text-align: right;
+    }
+    .post-category .single-category {
+        text-align: right;
+    }
+    .top-banner-area .banner-title {
+        text-align: right;
+    }
+    .top-banner-area .breadcrumb {
+        text-align: left;
+    }
+    .screenshot-details-text {
+        text-align: right;
+    }
+    .screenshot-details-text ul li {
+        padding-right: 25px;
+        padding-left: 0;
+    }
+    .screenshot-details-text ul li i {
+        right: 0;
+        left: auto;
+    }
+    .screenshot-details-text .title::after {
+        right: 0;
+        left: auto;
+    }
+    .angle-slides-wrapper-bg::before {
+        transform: skewY(-172deg);
+        -webkit-transform: skewY(-172deg);
+        -ms-transform: skewY(-172deg);
+        -o-transform: skewY(-172deg);
+    }
+    .single-feature p {
+        margin: 0;
+        line-height: 20px;
+    }
+    #toTop {
+        left: 30px;
+        right: auto;
+    }
+    .list-unstyled {
+        padding-right: 0;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .contact-btn {
+        padding-right: 22px;
+        padding-left: 0;
+    }
+    .hero-slider-section .sligle-item .slider-text {
+        text-align: center;
+    }
+    .hero-slider-section .sligle-item .slider-text a {
+        left: 30%;
+    }
+    .awesome-trip-section .trip-wrapper .form-group .form-control {
+        padding: 0 20px 0 40px;
+    }
+    .about-section .about-img::before {
+        left: -26px;
+        right: auto;
+    }
+    .about-section .about-img .book-title {
+        right: -5px;
+        left: auto;
+    }
+    .about-section .facelite .facelite-item h6 span {
+        margin-left: 28px;
+        margin-right: 0;
+    }
+    .about-section .facelite .facelite-item h6 span::before {
+        right: 35px;
+        left: auto;
+    }
+    .service-section .single-service-3::before {
+        left: 23px;
+        right: auto;
+    }
+    .service-section .single-service-2::before {
+        left: 23px;
+        right: auto;
+    }
+    .service-section .single-service-1::before {
+        left: 23px;
+        right: auto;
+    }
+    .service-section .single-service-4::before {
+        left: 23px;
+        right: auto;
+    }
+    .service-section .single-service-5::before {
+        left: 23px;
+        right: auto;
+    }
+    .service-section .single-service-6::before {
+        left: 23px;
+        right: auto;
+    }
+    .our-projects-section .project-wrapper {
+        right: calc((100% - 1250px)/2);
+        left: auto;
+    }
+    .our-projects-section .project-wrapper .single-project .project-content p {
+        right: 20px;
+        left: auto;
+    }
+    .our-projects-section .project-wrapper .single-project .project-content ul li {
+        padding-left: 6px;
+        padding-right: 0;
+    }
+    .our-projects-section .project-wrapper .single-project .project-content a::after {
+        left: 0;
+        right: auto;
+    }
+    .our-projects-section .project-wrapper .single-project .project-content a:hover::after {
+        display: none;
+    }
+    .work-section .workimg {
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    .work-section .left-section-title {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .work-section .work-list-wrapper {
+        margin-left: auto;
+        margin-right: unset;
+    }
+    .news-section .single-news .news-wrapper ul li {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .news-section .single-news .news-wrapper ul li i {
+        padding-left: 5px;
+        padding-right: 0;
+    }
+    .footer-section .widget-4 ul li {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .chrity-menu .join-now-btn a {
+        margin-right: 50px;
+        margin-left: 0;
+    }
+    .chsrity-slides-wrapper .charity-slides .slider-text {
+        padding-left: 50px;
+        padding-right: 0;
+    }
+    .chsrity-slides-wrapper .charity-slides .slider-text .watch a i {
+        padding-right: 18px;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .chrity-section-title h6::before {
+        right: 143px;
+        left: auto;
+    }
+    .chrity-traget-section #tabs li {
+        padding-left: 60px;
+        padding-right: 0;
+    }
+    .chrity-service-section .chrity-section-title h6::before {
+        right: 500px;
+        left: auto;
+    }
+    .chrity-service-donate-now-section .chrity-section-title h6::before {
+        right: 460px;
+        left: auto;
+    }
+    .chrity-our-causes-now-section .chrity-section-title h6::before {
+        right: 460px;
+        left: auto;
+    }
+    .charity-map-section .chrity-section-title h6::before {
+        right: 408px;
+        left: auto;
+    }
+    .charity-volunteer-section .chrity-section-title h6::before {
+        right: 424px;
+        left: auto;
+    }
+    .charity-event-section .chrity-section-title h6::before {
+        right: 100px;
+        left: auto;
+    }
+    .charity-event-section .single-event h3::before {
+        right: -34px;
+        left: auto;
+    }
+    .chrity-feeedback-section .single-feedbacks::before {
+        left: 5px;
+        right: auto;
+    }
+    .chrity-feeedback-section .single-feedbacks i {
+        right: 64px;
+        left: auto;
+    }
+    .banner-section-4 .banner-text .watch a i {
+        text-align: center;
+    }
+    .menu-4 .navbar-nav .free-consultency a {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .perfect-section-4 .faq-content .faq-panel h5 i {
+        border: none;
+    }
+    .perfect-section-4 .faq-content .faq-panel h5 i {
+        left: 20px;
+        right: auto;
+    }
+    .project-section-4 .section-title-left-4 span::before {
+        right: -22px;
+        left: auto;
+    }
+    .perches-section-5 .content-wrappers .all-style {
+        margin-right: 40px;
+        margin-left: 0;
+    }
+    .creative-section-5 .container-fluid .creative-list-wrapper .creative-text {
+        margin-left: auto;
+        margin-right: unset;
+    }
+    .creative-section-5 .container-fluid .introduacation span {
+        right: 60px;
+        left: auto;
+    }
+    .creative-section-5 .container-fluid .creative-list-wrapper .creative-text ul li i {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .jibo-work-section-5 .single-jibo-work .jibo-work-icon {
+        display: none;
+    }
+    .property-section-5 .single-portfolio .for-rent {
+        right: 19px;
+        left: auto;
+    }
+    .property-section-5 .single-portfolio .property-text ul li {
+        margin-left: 28px;
+        margin-right: 0;
+    }
+    .jibo-property-section-5 .property-list .proper-text {
+        padding-right: 30px;
+        padding-left: 0;
+    }
+    .jibo-property-section-5 .property-list .proper-icon i {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .news-section-5 .single-news .home {
+        right: 20px;
+        left: auto;
+    }
+    .news-section-5 .single-news .news-wrapper ul li {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .news-section-5 .single-news .news-wrapper ul li i {
+        padding-left: 5px;
+        padding-right: 0;
+    }
+    .footer-section-5 .widget-11 .email-icon {
+        left: 0;
+        right: auto;
+    }
+    .menu-3 .navbar-nav .try-it-free {
+        padding-right: 44px;
+        padding-left: 0;
+    }
+    .banner-section-3 .banner-text .watch a i {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .overview-section .overview-wrapper {
+        margin-right: auto;
+        margin-left: unset;
+    }
+    .overview-section .overview-list-wrapper .over-list {
+        padding: 20px 120px 20px 20px;
+    }
+    .overview-section .overview-list-wrapper .over-list .over-icon {
+        right: 30px;
+        left: auto;
+    }
+    .work-section-2-section .work-3::before {
+        display: none;
+    }
+    .features-section .border-2:nth-child(2) {
+        border-left: 1px solid #e2e2e2;
+    }
+    .features-section .border-5:nth-child(5) {
+        border-left: 1px solid #e2e2e2;
+    }
+    .software-section .software-list ul li i {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .footer-section-3 .estimate-wrapper .estimate {
+        text-align: left;
+    }
+    .work-section-2-section {
+        overflow: hidden;
+    }
+    .footer-section-3 .footer-bottom-3 ul {
+        text-align: left;
+    }
+    .navbar-nav {
+        padding-right: 0;
+    }
+    
+    /* RTL responsive css*/
+    @media only screen and (max-width: 767px) {
+        .top-menu .navbar-nav {
+            text-align: right !important;
+        }
+        .slider-text {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .single-hiw-feature {
+            padding: 0 70px 0 0 !important;
+            padding-left: 0;
+        }
+        .single-price-package .price-list li:before {
+            right: 30px !important;
+        }
+        .single-price-package .price-list {
+            padding: 0 30px 0 60px;
+            text-align: left !important;
+        }
+        .all-comments-content .reply-comment {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .footer-bottom .copyright {
+            text-align: center;
+        }
+        .offset-lg-1 {
+            margin-right: 0;
+        }
+        .horizontal-post {
+            border-radius: 0;
+        }
+        .horizontal-post .blog-img img {
+            border-radius: 0;
+        }
+        .horizontal-post .blog-info {
+            padding: 20px;
+        }
+        .hero-slider-section .sligle-item .slider-text a {
+            left: 0;
+        }
+        .chsrity-slides-wrapper .charity-slides .slider-text {
+            padding-left: 0;
+        }
+        .footer-bottom {
+            .social-links {
+                text-align: center;
+            }
+        }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .single-price-package .price-list {
+            padding: 0 30px 0 65px;
+            text-align: left;
+        }
+        .single-price-package .price-list li:before {
+            right: 30px !important;
+        }
+        .top-menu .navbar-nav .nav-item .nav-link {
+            font-size: 12px !important;
+        }
+        .top-banner-area .banner-title {
+            text-align: center;
+        }
+        .offset-lg-1 {
+            margin-right: 0;
+        }
+        .horizontal-post {
+            border-radius: 0;
+        }
+        .horizontal-post .blog-img img {
+            border-radius: 0;
+        }
+        .horizontal-post .blog-info {
+            padding: 20px;
+        }
+        .hero-slider-section .sligle-item .slider-text a {
+            left: 0;
+        }
+        .chsrity-slides-wrapper .charity-slides .slider-text {
+            padding-left: 0;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .horizontal-post .blog-info {
+            padding: 25px 8px 25px 0 !important;
+        }
+        .single-price-package .price-list li:before {
+            right: -210px !important;
+        }
+    }
+    
+    @media only screen and (min-width: 1400px) {
+     
+    }    
+}
