@@ -120,7 +120,7 @@ class HowItWorks extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-5 offset-lg-1">
+                            <div className="col-lg-5 offset-lg-1 mt-2">
                                 <ScrollAnimation
                                     animateIn="fadeInUp"
                                     delay={200}
