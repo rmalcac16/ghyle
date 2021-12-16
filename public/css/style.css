@@ -657,9 +657,9 @@ section {
 }
 
 .homepage-slides.owl-theme .owl-nav .owl-prev {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(92 224 109);
     border-radius: 0 10px 10px 0;
-    color: #ffffff;
+    color: #000;
     font-size: 25px;
     height: 80px;
     left: 0;
@@ -678,14 +678,14 @@ section {
 }
 
 .homepage-slides.owl-theme .owl-nav .owl-prev:hover {
-    background-color: #fff;
+    background-color: rgb(50, 150, 64);
     color: #000;
 }
 
 .homepage-slides.owl-theme .owl-nav .owl-next {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(92 224 109);
     border-radius: 10px 0 0 10px;
-    color: #ffffff;
+    color: #000;
     font-size: 25px;
     height: 80px;
     right: 0;
@@ -704,7 +704,7 @@ section {
 }
 
 .homepage-slides.owl-theme .owl-nav .owl-next:hover {
-    background-color: #fff;
+    background-color: rgb(92 224 109);
     color: #000;
 }
 
