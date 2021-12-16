@@ -43,10 +43,12 @@ class Slider extends React.Component {
                                             <VisibilitySensor>
                                                 {({ isVisible }) => (
                                                     <div className="col-md-12 col-lg-8">
-                                                        <div className="welcome-phone">
+                                                        <div className="welcome-phone image-slider">
                                                             <img
-                                                                src="/images/app-mockup-1.png"
-                                                                alt="App Mockup image"
+                                                                src={data.image}
+                                                                alt={
+                                                                    data.heading
+                                                                }
                                                             />
                                                         </div>
                                                     </div>
@@ -67,12 +69,14 @@ class Slider extends React.Component {
 Slider.defaultProps = {
     slideData: [
         {
-            heading: 'Manage all of your Stuff Using a Jibo',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            heading: 'Gestión de calidad',
+            text: '',
+            image: '/images/slider/geosinteticos.jpeg',
         },
         {
-            heading: 'Awesome Jibo Mobile App',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            heading: 'Seguridad y Salud',
+            text: '',
+            image: '/images/slider/electricos.jpeg',
         },
     ],
 };

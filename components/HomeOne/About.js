@@ -112,7 +112,7 @@ class About extends React.Component {
                                 delay={100}
                                 animateOnce={true}
                             >
-                                <div className="app-about-text">
+                                <div className="app-about-text mt-4">
                                     <h3>Visión</h3>
                                     <p>
                                         Desarrollar y ejecutar proyectos de

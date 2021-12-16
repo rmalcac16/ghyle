@@ -64,11 +64,10 @@ export default class Screenshots extends React.Component {
                                 <div className="section-title">
                                     <h2>Galería</h2>
                                     <p>
-                                        Lorem ipsum madolor sit amet,
-                                        consectetur adipisicing elit, sed do
-                                        eiusmod tempor coli incididunt ut labore
-                                        Lorem ipsum madolor sit amet,
-                                        consectetur adipisicing incididunt.
+                                        Capacitamos, entrenamos y comprometemos
+                                        a nuestros colaboradores a desarrollar
+                                        una cultura de calidad, medio ambiente y
+                                        sst.
                                     </p>
                                 </div>
                             </ScrollAnimation>
@@ -92,14 +91,14 @@ export default class Screenshots extends React.Component {
                                                 e.preventDefault();
                                                 this.openModal();
                                                 this.handleImage(
-                                                    '/images/screenshot/1.png'
+                                                    '/images/screenshot/1.jpeg'
                                                 );
                                             }}
                                             href="#"
                                             className="screenshot-image"
                                         >
                                             <img
-                                                src="/images/screenshot/1.png"
+                                                src="/images/screenshot/1.jpeg"
                                                 alt="Screenshot Image"
                                             />
                                         </a>
@@ -111,14 +110,14 @@ export default class Screenshots extends React.Component {
                                                 e.preventDefault();
                                                 this.openModal();
                                                 this.handleImage(
-                                                    '/images/screenshot/2.png'
+                                                    '/images/screenshot/2.jpeg'
                                                 );
                                             }}
                                             href="#"
                                             className="screenshot-image"
                                         >
                                             <img
-                                                src="/images/screenshot/2.png"
+                                                src="/images/screenshot/2.jpeg"
                                                 alt="Screenshot Image"
                                             />
                                         </a>
@@ -130,14 +129,14 @@ export default class Screenshots extends React.Component {
                                                 e.preventDefault();
                                                 this.openModal();
                                                 this.handleImage(
-                                                    '/images/screenshot/3.png'
+                                                    '/images/screenshot/3.jpeg'
                                                 );
                                             }}
                                             href="#"
                                             className="screenshot-image"
                                         >
                                             <img
-                                                src="/images/screenshot/3.png"
+                                                src="/images/screenshot/3.jpeg"
                                                 alt="Screenshot Image"
                                             />
                                         </a>
@@ -149,14 +148,14 @@ export default class Screenshots extends React.Component {
                                                 e.preventDefault();
                                                 this.openModal();
                                                 this.handleImage(
-                                                    '/images/screenshot/4.png'
+                                                    '/images/screenshot/4.jpeg'
                                                 );
                                             }}
                                             href="#"
                                             className="screenshot-image"
                                         >
                                             <img
-                                                src="/images/screenshot/4.png"
+                                                src="/images/screenshot/4.jpeg"
                                                 alt="Screenshot Image"
                                             />
                                         </a>
@@ -168,14 +167,14 @@ export default class Screenshots extends React.Component {
                                                 e.preventDefault();
                                                 this.openModal();
                                                 this.handleImage(
-                                                    '/images/screenshot/5.png'
+                                                    '/images/screenshot/5.jpeg'
                                                 );
                                             }}
                                             href="#"
                                             className="screenshot-image"
                                         >
                                             <img
-                                                src="/images/screenshot/5.png"
+                                                src="/images/screenshot/5.jpeg"
                                                 alt="Screenshot Image"
                                             />
                                         </a>
@@ -186,14 +185,14 @@ export default class Screenshots extends React.Component {
                     </ScrollAnimation>
                 </div>
 
-                {modalOpen ? (
+                {/* {modalOpen ? (
                     <Modal
                         closeModal={this.closeModal}
                         image={this.state.modalImage}
                     />
                 ) : (
                     ''
-                )}
+                )} */}
             </section>
         );
     }

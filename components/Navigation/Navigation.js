@@ -18,13 +18,6 @@ export default class Navigation extends Component {
     componentDidMount() {
         this._isMounted = true;
         let elementId = document.getElementById('navbar');
-        document.addEventListener('scroll', () => {
-            if (window.scrollY > 170) {
-                elementId.classList.add('menu-shrink');
-            } else {
-                elementId.classList.remove('menu-shrink');
-            }
-        });
 
         let mainNavLinks = document.querySelectorAll('nav ul li a');
         window.addEventListener('scroll', () => {
@@ -119,11 +112,11 @@ export default class Navigation extends Component {
             <div>
                 <nav
                     id="navbar"
-                    className="navbar fixed-top navbar-expand-md navbar-light top-menu"
+                    className="navbar fixed-top navbar-expand-md navbar-light top-menu menu-shrink"
                 >
                     <div className="container">
                         <a className="navbar-brand" href="/">
-                            Jibo
+                            W G & L E
                         </a>
 
                         <button

@@ -531,7 +531,7 @@ section {
 }
 
 .single-slider-item h1 {
-    color: #ffffff;
+    color: #353535;
     font-size: 35px;
     line-height: 55px;
     margin: 0 0 20px;
@@ -594,6 +594,11 @@ section {
     z-index: 5;
     -webkit-animation: movebounce 5s linear infinite;
     animation: movebounce 5s linear infinite;
+}
+
+.single-slider-item .welcome-phone img {
+    box-shadow: 1rem 1rem 1rem #dce4dc;
+    border-radius: 1rem 2rem 1rem 0.5rem;
 }
 
 .slider-text {
@@ -1044,6 +1049,10 @@ section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+.single-feature img {
+    aspect-ratio: 4/3;
+}
+
 .single-feature:hover {
     transform: translateY(-4px) scale(1.01);
     -webkit-transform: translateY(-4px) scale(1.01);
@@ -1235,6 +1244,11 @@ section {
     display: block;
     overflow: hidden;
     position: relative;
+}
+
+.screenshot-item .screenshot-image img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
 }
 
 .screenshot-item .screenshot-image::after {

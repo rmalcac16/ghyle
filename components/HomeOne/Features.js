@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -16,11 +17,11 @@ export default class Features extends React.Component {
                                 <div className="section-title">
                                     <h2>Nuestros Servicios</h2>
                                     <p>
-                                        Lorem ipsum madolor sit amet,
-                                        consectetur adipisicing elit, sed do
-                                        eiusmod tempor coli incididunt ut labore
-                                        Lorem ipsum madolor sit amet,
-                                        consectetur adipisicing incididunt.
+                                        Satisfacemos las necesidades de nuestros
+                                        clientes con servicios de calidad en
+                                        plazos establecidos. Promoviendo y
+                                        promocionando un espacio de trabajo
+                                        seguro y saludable.
                                     </p>
                                 </div>
                             </ScrollAnimation>
@@ -35,15 +36,31 @@ export default class Features extends React.Component {
                                 animateOnce={true}
                             >
                                 <div className="single-feature">
-                                    <div className="feature-icon">
-                                        <i className="icofont-sun"></i>
-                                    </div>
-                                    <h4>METALMECANICA</h4>
-                                    <p>
+                                    <h4>METALMECÁNICA</h4>
+                                    <img
+                                        style={{
+                                            marginTop: 10,
+                                            marginBottom: 20,
+                                        }}
+                                        src={
+                                            '/images/slider/metalmecanica.jpeg'
+                                        }
+                                        width="100%"
+                                        height="100%"
+                                        layout="responsive"
+                                        objectFit="contain"
+                                    />
+                                    {/* <p>
                                         There are many variations of passages of
                                         Lorem Ipsum available,but the
                                         majorityhave suffered alteration.
-                                    </p>
+                                    </p> */}
+
+                                    <button className="btn btn-outline-success">
+                                        <strong className="text-weight text-sm text-uppercase">
+                                            Más información
+                                        </strong>
+                                    </button>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -55,15 +72,30 @@ export default class Features extends React.Component {
                                 animateOnce={true}
                             >
                                 <div className="single-feature">
-                                    <div className="feature-icon">
-                                        <i className="icofont-light-bulb"></i>
-                                    </div>
-                                    <h4>GEOSINTETICOS</h4>
-                                    <p>
+                                    <h4>GEOSINTÉTICOS</h4>
+                                    <img
+                                        style={{
+                                            marginTop: 10,
+                                            marginBottom: 20,
+                                        }}
+                                        src={
+                                            '/images/slider/geosinteticos.jpeg'
+                                        }
+                                        width="100%"
+                                        height="100%"
+                                        layout="responsive"
+                                        objectFit="contain"
+                                    />
+                                    {/* <p>
                                         There are many variations of passages of
                                         Lorem Ipsum available,but the
                                         majorityhave suffered alteration.
-                                    </p>
+                                    </p> */}
+                                    <button className="btn btn-outline-success">
+                                        <strong className="text-weight text-sm text-uppercase">
+                                            Más información
+                                        </strong>
+                                    </button>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -75,15 +107,28 @@ export default class Features extends React.Component {
                                 animateOnce={true}
                             >
                                 <div className="single-feature">
-                                    <div className="feature-icon">
-                                        <i className="icofont-imac"></i>
-                                    </div>
                                     <h4>ELÉCTRICOS</h4>
-                                    <p>
+                                    <img
+                                        style={{
+                                            marginTop: 10,
+                                            marginBottom: 20,
+                                        }}
+                                        src={'/images/slider/electricos.jpeg'}
+                                        width="100%"
+                                        height="100%"
+                                        layout="responsive"
+                                        objectFit="contain"
+                                    />
+                                    {/* <p>
                                         There are many variations of passages of
                                         Lorem Ipsum available,but the
                                         majorityhave suffered alteration.
-                                    </p>
+                                    </p> */}
+                                    <button className="btn btn-outline-success">
+                                        <strong className="text-weight text-sm text-uppercase">
+                                            Más información
+                                        </strong>
+                                    </button>
                                 </div>
                             </ScrollAnimation>
                         </div>

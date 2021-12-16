@@ -39,7 +39,7 @@ export default class MyApp extends App {
                         name="viewport"
                         content="width=device-width, initial-scale=1"
                     />
-                    <title>Servicios Generales GH&LE S.R.L.</title>
+                    <title>Servicios Generales WG&LE S.R.L.</title>
                 </Head>
 
                 <Component {...pageProps} />
