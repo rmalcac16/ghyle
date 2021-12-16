@@ -70,12 +70,17 @@ Slider.defaultProps = {
     slideData: [
         {
             heading: 'Gestión de calidad',
-            text: '',
+            text: 'Capacitamos, entrenamos y comprometemos a nuestros colaboradores a desarrollar una cultura de calidad, medio ambiente y sst.',
             image: '/images/slider/geosinteticos.jpeg',
         },
         {
             heading: 'Seguridad y Salud',
-            text: '',
+            text: 'Capacitamos, entrenamos y comprometemos a nuestros colaboradores a desarrollar una cultura de calidad, medio ambiente y sst.',
+            image: '/images/slider/electricos.jpeg',
+        },
+        {
+            heading: 'Seguridad y Salud 2',
+            text: 'Capacitamos, entrenamos y comprometemos a nuestros colaboradores a desarrollar una cultura de calidad, medio ambiente y sst.',
             image: '/images/slider/electricos.jpeg',
         },
     ],
