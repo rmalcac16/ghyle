@@ -114,7 +114,7 @@ class HowItWorks extends React.Component {
                                     animateOnce={true}
                                 >
                                     <div className="single-hiw-feature">
-                                        <i class="icofont-workers-group"></i>
+                                        <i className="icofont icofont-workers-group"></i>
                                         <h4>Trabajo en Equipo</h4>
                                         <p>
                                             Trabajamos conjuntamente fijando
@@ -134,7 +134,7 @@ class HowItWorks extends React.Component {
                                     animateOnce={true}
                                 >
                                     <div className="single-hiw-feature">
-                                        <i class="icofont-help-robot"></i>
+                                        <i className="icofont icofont-help-robot"></i>
                                         <h4>Innovación</h4>
                                         <p>
                                             Trabajamos contantemente en mejorar,
