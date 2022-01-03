@@ -11,14 +11,16 @@ import {
 export default class Faq extends React.Component {
     render() {
         return (
-            <section id="faqs" className="faqs-section gray-bg"> 
+            <section id="faqs" className="faqs-section green-bg"> 
                 <div className="container"> 
                     <div className="row"> 
                         <div className="col-lg-12"> 
                             <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
                                 <div className="section-title"> 
-                                    <h2>Frequently Asked Questions</h2>
-                                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet, consectetur adipisicing incididunt.</p>
+                                    <h2>POLÍTICA DEL SISTEMA INTEGRADO DE
+                                            GESTIÓN SGC-SGSST-SGA </h2> 
+                                            <p>Estamos comprometidos a:</p>
+                                    
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -40,12 +42,12 @@ export default class Faq extends React.Component {
                                         <AccordionItem uuid="a">
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    <span>1.</span> It is a long established fact that a reader will be 
+                                                    <span>1.</span> Satisfacer a cabalidad las necesidades de nuestros clientes  
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    Entregamos un servicio de calidad en plazos establecidos.
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>
@@ -53,12 +55,12 @@ export default class Faq extends React.Component {
                                         <AccordionItem uuid="b">
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    <span>2.</span>  Contrary to popular belief, Lorem Ipsum
+                                                    <span>2.</span>  Capacitar, entrenar y comprometer a nuestros colaboradores.
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    Desarrollamos una cultura de calidad, medio ambiente y SST, enfocados en la mejora continua.
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>
@@ -66,25 +68,24 @@ export default class Faq extends React.Component {
                                         <AccordionItem uuid="c">
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    <span>3.</span>  There are many variations of passages
+                                                    <span>3.</span> Garantizar la participación y consulta 
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                </p>
+Fomentamos el trabajo en equipo para cumplir los objetivos y compromisos de la empresa.                                                </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>
 
                                         <AccordionItem uuid="d">
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    <span>4.</span>  Lorem ipsum dolor sit amet
+                                                    <span>4.</span>  Promover y proporcionar actividades y acciones en un lugar de trabajo seguro.
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    Trabajo seguro y saludable  enmarcado en la prevensión de lesiones y enfermedades ocupacionales, elimando peligros y reduciendo reisgos.
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>
@@ -92,12 +93,12 @@ export default class Faq extends React.Component {
                                         <AccordionItem uuid="e">
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    <span>5.</span>  Sed ut perspiciatis unde omnis iste natus
+                                                    <span>5.</span>  Demostrar un comportamiento seguro, sostenible y responsable con el medio ambiente
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    Nuestras actividades protegen y conservan los recursos, además prevenimos la contaminacioón del medio ambiente.
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>
@@ -105,12 +106,12 @@ export default class Faq extends React.Component {
                                         <AccordionItem uuid="f">
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    <span>6.</span> But I must explain to you
+                                                    <span>6.</span> Cumplir los requisitos legales 
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    la empresa se adiere al SST, medio ambiente y otras prescripciones que suscriba la empresa.
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>

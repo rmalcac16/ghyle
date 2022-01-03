@@ -69,7 +69,9 @@
         margin: 0 0 10px;
     }
     .single-slider-item p {
-        font-size: 15px;
+        font-size: 17px;
+        
+        
     }
     .single-slider-item .slide-btn-white,
     .single-slider-item .slide-btn-bordered {
@@ -699,6 +701,7 @@
     }
     .slider-text {
         padding-right: 0;
+        
     }
     #toTop {
         bottom: 80px;

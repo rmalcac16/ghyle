@@ -61,7 +61,7 @@ h5 {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    color: #646464;
+    color: #000000;
     font-size: 14px;
     line-height: 28px;
 }
@@ -539,10 +539,13 @@ section {
 }
 
 .single-slider-item p {
-    color: #454545;
+
+    color: #000000;
+
     font-size: 17px;
     line-height: 30px;
 }
+
 
 .single-slider-item .slide-button {
     margin-top: 30px;
@@ -989,6 +992,7 @@ section {
     width: 70px;
     height: 70px;
     border-radius: 9999px;
+    
 }
 
 .sonar-wrapper .sonar-emitter .sonar-wave {

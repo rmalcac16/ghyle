@@ -17,10 +17,7 @@ class HowItWorks extends React.Component {
                                     <div className="section-title">
                                         <h2>Valores</h2>
                                         <p>
-                                            POLÍTICA DEL SISTEMA INTEGRADO DE
-                                            GESTIÓN SGC-SGSST-SGA
-                                            <br />
-                                            VERSIÓN: 01 - Noviembre 2021
+                                                                                        
                                         </p>
                                     </div>
                                 </ScrollAnimation>

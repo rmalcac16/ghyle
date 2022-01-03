@@ -17,11 +17,7 @@ export default class Team extends React.Component {
                                 <div className="section-title">
                                     <h2>Colaboradores</h2>
                                     <p>
-                                        Lorem ipsum madolor sit amet,
-                                        consectetur adipisicing elit, sed do
-                                        eiusmod tempor coli incididunt ut labore
-                                        Lorem ipsum madolor sit amet,
-                                        consectetur adipisicing incididunt.
+                                        Nuestros colaboradores son los que generan valor en la empresa. Su conocimiento y compromiso, hacen que nuestros servicos sean de calidad.
                                     </p>
                                 </div>
                             </ScrollAnimation>
@@ -44,10 +40,7 @@ export default class Team extends React.Component {
                                         <div className="overlay">
                                             <div className="member-info">
                                                 <p>
-                                                    Lorem ipsum madolor sit
-                                                    amet, consectetur
-                                                    adipisicing elit, sed do
-                                                    eiusmod tempor.
+                                                    Responsable de la administración y organización de la empresa
                                                 </p>
                                                 <div className="social-links">
                                                     <a
@@ -74,8 +67,8 @@ export default class Team extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <h4 className="member-name">Persona 1</h4>
-                                    <p className="designation">Cargo 1</p>
+                                    <h4 className="member-name">Wilder Chuquilín Muñoz</h4>
+                                    <p className="designation">Gerente General</p>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -95,10 +88,7 @@ export default class Team extends React.Component {
                                         <div className="overlay">
                                             <div className="member-info">
                                                 <p>
-                                                    Lorem ipsum madolor sit
-                                                    amet, consectetur
-                                                    adipisicing elit, sed do
-                                                    eiusmod tempor.
+                                                    Encargado de la dirección, ejecucíon y especificaciones técnicas de nuestros proyectos
                                                 </p>
                                                 <div className="social-links">
                                                     <a
@@ -125,8 +115,8 @@ export default class Team extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <h4 className="member-name">Persona 2</h4>
-                                    <p className="designation">Cargo 2</p>
+                                    <h4 className="member-name">Samuel Martínez Quispe</h4>
+                                    <p className="designation">Residente</p>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -146,10 +136,7 @@ export default class Team extends React.Component {
                                         <div className="overlay">
                                             <div className="member-info">
                                                 <p>
-                                                    Lorem ipsum madolor sit
-                                                    amet, consectetur
-                                                    adipisicing elit, sed do
-                                                    eiusmod tempor.
+                                                    Encargada de dar cumplimiento a las normas de salud y seguridad
                                                 </p>
                                                 <div className="social-links">
                                                     <a
@@ -176,8 +163,8 @@ export default class Team extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <h4 className="member-name">Persona 3</h4>
-                                    <p className="designation">Cargo 3</p>
+                                    <h4 className="member-name">Sonia Vásquez Vásquez</h4>
+                                    <p className="designation">Supervisora de Seguridad</p>
                                 </div>
                             </ScrollAnimation>
                         </div>

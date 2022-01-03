@@ -30,8 +30,10 @@ class Index extends React.Component {
 
                     <About />
 
-                    <HowItWorks />
+                    {<Faq />}
 
+                    <HowItWorks />
+             
                     <Features />
 
                     {/* <Counter /> */}
@@ -42,7 +44,7 @@ class Index extends React.Component {
 
                     {/* <Pricing /> */}
 
-                    {/* <Faq /> */}
+                    
 
                     <Team />
 

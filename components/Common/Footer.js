@@ -9,9 +9,9 @@ export default class Footer extends React.Component {
                         <div className="row">
                             <div className="col-md-6 col-lg-6">
                                 <p className="copyright">
-                                    Copyright @2021 Dark. all rights by{' '}
+                                    Copyright @2021 WG & LE{' '}
                                     <a href="#" target="_blank">
-                                        DarkDeveloper
+                                        
                                     </a>
                                 </p>
                             </div>
