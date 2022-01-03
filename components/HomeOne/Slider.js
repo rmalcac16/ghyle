@@ -33,18 +33,18 @@ class Slider extends React.Component {
                             <div className="slide-item-table">
                                 <div className="slide-item-tablecell">
                                     <div className="container">
-                                        <div className="row align-items-center">
-                                            <div className="col-md-12 col-lg-4">
-                                                <div className="slider-text" >
+                                        <div className="row align-items-center py-md-4">
+                                            <div className="col-md-12 col-lg-5">
+                                                <div className="slider-text">
                                                     <h1>{data.heading}</h1>
                                                     <p>{data.text}</p>
                                                 </div>
                                             </div>
                                             <VisibilitySensor>
                                                 {({ isVisible }) => (
-                                                    <div className="col-md-6 col-lg-8">
+                                                    <div className="col-md-12 col-lg-7">
                                                         <div className="welcome-phone image-slider">
-                                                            <img 
+                                                            <img
                                                                 src={data.image}
                                                                 alt={
                                                                     data.heaing
@@ -75,28 +75,19 @@ Slider.defaultProps = {
         },
         {
             heading: 'Gestión de calidad',
-
             text: 'Contamos con un conjunto de acciones y procedimientos para garantizar nuestros servicios.',
-
-            text: 'Capacitamos, entrenamos y comprometemos a nuestros colaboradores a desarrollar una cultura de calidad, medio ambiente y sst.',
-
             image: '/images/slider/geosinteticos.jpeg',
         },
         {
             heading: 'Seguridad y Salud',
-
             text: 'Somos una organización comprometida con el bienestar físico, emocional y social de sus colaboradores. ',
-
-            text: 'Capacitamos, entrenamos y comprometemos a nuestros colaboradores a desarrollar una cultura de calidad, medio ambiente y sst.',
             image: '/images/slider/electricos.jpeg',
         },
         {
             heading: 'Seguridad y Salud 2',
             text: 'Capacitamos, entrenamos y comprometemos a nuestros colaboradores a desarrollar una cultura de calidad, medio ambiente y sst.',
-
             image: '/images/slider/electricos.jpeg',
         },
-        
     ],
 };
 

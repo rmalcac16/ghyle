@@ -70,8 +70,6 @@
     }
     .single-slider-item p {
         font-size: 17px;
-        
-        
     }
     .single-slider-item .slide-btn-white,
     .single-slider-item .slide-btn-bordered {
@@ -479,7 +477,7 @@
         font-size: 26px;
     }
     .single-slider-item .welcome-phone {
-        max-width: 270px;
+        max-width: 350px;
     }
     .single-slider-item h1 {
         font-size: 24px;
@@ -701,7 +699,6 @@
     }
     .slider-text {
         padding-right: 0;
-        
     }
     #toTop {
         bottom: 80px;
